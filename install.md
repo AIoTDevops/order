@@ -1,10 +1,20 @@
 
 
 
-## 常用命令
+## 端口
 1. netstat -anp | grep :22     mac 端口   lsof -i:8080
-2. ps -ef | grep mysql
-3. 环境变量 /etc/profile
+2. netstat -lnp|grep 88 
+3. netstat -tunlp|grep 8080
+
+
+## 程序
+4. ps -ef | grep mysql
+5. ps -aux | grep chrome
+
+## 常用命令
+
+环境变量 /etc/profile
+
 
 
 
@@ -74,6 +84,7 @@ vim conf/server.xml
 bin/startup.sh
 
 ps -ef | grep tomcat
+netstat -anp | grep :8080
 
 
 ## mysql
@@ -105,3 +116,12 @@ ps -ef | grep tomcat
 
 1. jenkins.io .war  weget
 2. java -jar jenkins.war 8080
+
+source /etc/profile
+rm -rf order
+git clone https://github.com/AIoTDevops/order.git
+cd order
+mvn clean install
+mv target/order.war /root/apache-tomcat-9.0.50/webapps/task.war
+
+
