@@ -8,6 +8,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=sun1234567*
     volumes:
-      - ./data/order/mysql:/var/lib/mysql
+      - /root/data/order/mysql:/var/lib/mysql
 
   
