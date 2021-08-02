@@ -14,7 +14,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://localhost:3307/order?useSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8" />
 		<property name="username" value="root" />
-		<property name="password" value="261500Aa!" />
+		<property name="password" value="sun1234567*" />
 	</bean>
 
 
