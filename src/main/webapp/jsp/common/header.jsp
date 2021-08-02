@@ -13,7 +13,7 @@
             <a class="navbar-brand">
                 <small>
                     <i class="icon-leaf"></i>
-                    he sun家常菜
+                    david sun家常菜
                 </small>
             </a><!-- /.brand -->
         </div><!-- /.navbar-header -->
