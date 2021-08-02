@@ -1,13 +1,13 @@
 version: '2' 
 services:
-  mysql-server:
+  order-mysql-server:
     image: mysql:5.7
-    container_name: mysql-server
+    container_name: order-mysql-server
     ports:
       - "3307:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=sun1234567*
     volumes:
-      - ./data/mysql:/var/lib/mysql
+      - ./data/order/mysql:/var/lib/mysql
 
   
